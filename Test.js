@@ -34,7 +34,7 @@ function spiralPrint(){
             console.log(M[i][topLeft])
         }
         topLeft++
-      ///////////////////////// 
+      //////////////////////////////////////////////////////////// 
         //go right
         for(let i=topLeft;i<topRight;i++){
             console.log(M[topLeft][i])
